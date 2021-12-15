@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7DCE7D9C-7771-4D91-AA21-71F53B56E628}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EmployeeManagementSystem</RootNamespace>
+    <AssemblyName>EmployeeManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8_user_group.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\Desktop\Project\Base\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2020.1.113.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.UI, Version=2020.1.113.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikCommon, Version=2020.1.113.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connection.cs" />
+    <Compile Include="Controller\Confirmation.cs" />
+    <Compile Include="Controller\Db.cs" />
+    <Compile Include="Controller\MenuController.cs" />
+    <Compile Include="Controller\PublicProperties.cs" />
+    <Compile Include="Interface\AccountUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Interface\AccountUC.Designer.cs">
+      <DependentUpon>AccountUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\AnnouncementUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Interface\AnnouncementUC.Designer.cs">
+      <DependentUpon>AnnouncementUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\DeptUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Interface\DeptUC.Designer.cs">
+      <DependentUpon>DeptUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\Menu\UCMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Interface\Menu\UCMenu.Designer.cs">
+      <DependentUpon>UCMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\UCAnnouncement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Interface\UCAnnouncement.Designer.cs">
+      <DependentUpon>UCAnnouncement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\UCModel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Interface\UCModel.Designer.cs">
+      <DependentUpon>UCModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Notification.cs" />
+    <Compile Include="Controller\Query.cs" />
+    <Compile Include="Controller\ThisSettings.cs" />
+    <Compile Include="Interface\UIController.cs" />
+    <Compile Include="Controller\Utilities.cs" />
+    <Compile Include="Interface\Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Interface\Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\DialogYesNo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Interface\DialogYesNo.Designer.cs">
+      <DependentUpon>DialogYesNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\Employee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Interface\Employee.Designer.cs">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\LeftPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Interface\LeftPanel.Designer.cs">
+      <DependentUpon>LeftPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\LeftPanelExpand.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Interface\LeftPanelExpand.Designer.cs">
+      <DependentUpon>LeftPanelExpand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\Login.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Interface\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\frmAlert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\frmAlert.Designer.cs">
+      <DependentUpon>frmAlert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\UpperPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Interface\UpperPanel.Designer.cs">
+      <DependentUpon>UpperPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Data.cs" />
+    <Compile Include="Model\Department.cs" />
+    <Compile Include="Model\Documents.cs" />
+    <Compile Include="Model\Employee.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Interface\AccountUC.resx">
+      <DependentUpon>AccountUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\AnnouncementUC.resx">
+      <DependentUpon>AnnouncementUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\DeptUC.resx">
+      <DependentUpon>DeptUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\DialogYesNo.resx">
+      <DependentUpon>DialogYesNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Employee.resx">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\LeftPanel.resx">
+      <DependentUpon>LeftPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\LeftPanelExpand.resx">
+      <DependentUpon>LeftPanelExpand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\frmAlert.resx">
+      <DependentUpon>frmAlert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Menu\UCMenu.resx">
+      <DependentUpon>UCMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\UCAnnouncement.resx">
+      <DependentUpon>UCAnnouncement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\UCModel.resx">
+      <DependentUpon>UCModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\UpperPanel.resx">
+      <DependentUpon>UpperPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8_management_200px_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8_male_user_52px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8_shutdown_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8_question_mark_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8_question_mark_480px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8_Check_Mark_48px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8_checkmark_52px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8_high_risk_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8_info_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8_Warning_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8_unit_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8_view_more_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\EmployeeDirectory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\InsertNewEmployee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\ManageUserAccount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\ReviewData.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Anonym.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8_Pencil_Drawing_240px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\announcethum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8_megaphone_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8_password_400px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Department.ico" />
+    <Content Include="icons8_user_group.ico" />
+    <None Include="Properties\derpartment.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

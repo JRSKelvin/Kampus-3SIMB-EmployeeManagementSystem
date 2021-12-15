@@ -1,0 +1,72 @@
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.exe.config
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.exe
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.pdb
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\Guna.UI2.dll
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\MySql.Data.dll
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\Google.Protobuf.dll
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\Zstandard.Net.dll
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\Renci.SshNet.dll
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\System.Memory.dll
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\System.Buffers.dll
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\MySql.Data.xml
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.exe.config
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Properties.Resources.resources
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.GenerateResource.cache
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.CopyComplete
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.exe
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.pdb
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Main.resources
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.exe.licenses
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\Telerik.WinControls.dll
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\Telerik.WinControls.UI.dll
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\TelerikCommon.dll
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\Telerik.WinControls.xml
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\Telerik.WinControls.UI.xml
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.Login.resources
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.UpperPanel.resources
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.Dashboard.resources
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.LeftPanel.resources
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.DialogYesNo.resources
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.Employee.resources
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csprojAssemblyReference.cache
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.exe.config
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.exe
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.pdb
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\bin\Debug\Telerik.WinControls.dll
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\bin\Debug\Telerik.WinControls.UI.dll
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\bin\Debug\TelerikCommon.dll
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\bin\Debug\Telerik.WinControls.xml
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\bin\Debug\Telerik.WinControls.UI.xml
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csprojAssemblyReference.cache
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.Dashboard.resources
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.DialogYesNo.resources
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.Employee.resources
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.LeftPanel.resources
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.Login.resources
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.UpperPanel.resources
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Main.resources
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Properties.Resources.resources
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.GenerateResource.cache
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.exe.licenses
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.CopyComplete
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.exe
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.pdb
+C:\Users\it\source\repos\PBD Employee\PBD-EMS\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.PopUp.resources
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.PopUp.resources
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.LeftPanelExpand.resources
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.UCMenu.resources
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.AnnouncementUC.resources
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.DeptUC.resources
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.UCAnnouncement.resources
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.UCModel.resources
+C:\Users\tiosa\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Interface.AccountUC.resources
